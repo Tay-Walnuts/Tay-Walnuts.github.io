@@ -1,0 +1,181 @@
+.EVERYTHING {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    text-align: center;
+}
+
+body {
+    background-image: url("WOW Images/studio-ghibli-backgrounds-20 copy.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#H1 {
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 66px;
+    border-style: double;
+}
+
+
+
+.Music {
+color: aliceblue;
+font-weight: bolder;
+}
+
+
+
+
+.PLOTS {
+    color: rgb(217, 240, 240);
+}
+
+.MEANING {
+    color: rgb(217, 240, 240);
+}
+
+#CLickPonyo {
+    color: rgb(50, 174, 216);
+    font-size: 25px;
+}
+
+#ClickSpirited {
+    color: rgb(55, 118, 99);
+    font-size: 25px;
+}
+
+#ClickTOtoro {
+    color: rgb(48, 81, 90);
+    font-size: 25px;
+}
+
+#POnyO {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "PONYOIMG HeadingPONYO TrailerPonyo"
+    "AllPonyo AllPonyo MeanPonyo"
+    ;
+}
+
+.AllPonyo {
+    grid-area: AllPonyo;
+}
+
+.POnyO {
+    color: rgb(234, 91, 51);
+}
+
+.PONYOIMG {
+    grid-area: PONYOIMG;
+}
+
+#HeadingPONYO {
+    color: aliceblue;
+    grid-area: HeadingPONYO;
+    text-decoration: underline;
+    font-size: 54px;
+}
+
+.MeanPONYO {
+    color: rgb(223, 176, 23);
+    grid-area: MeanPONYO;
+}
+
+.TrailerPONYO {
+    grid-area: TrailerPONYO;
+}
+
+
+
+
+
+.SpiritAway {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "SPIRITIMG SPIRAWAY TrailerSpirit"
+    "AllSpirit AllSpirit MeanAway"
+    ;
+}
+
+.AllSpirit {
+    grid-area: AllSpirit;
+}
+
+.Away {
+    color: rgb(226, 112, 104);
+}
+
+.SPIRITIMG {
+    grid-area: SPIRITIMG;
+}
+
+#SPIRAWAY {
+    color: aliceblue;
+    text-decoration: underline;
+    font-size: 54px;
+}
+
+.MeanAway {
+    color: rgb(33, 131, 148);
+}
+
+.MeanSpirit {
+    grid-area: MeanSpirit;
+}
+
+.TrailerSpirit {
+    grid-area: TrailerSpirit;
+}
+
+
+
+.MyNeighborTotoro {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "TOTOROIMG MYNEIGHTOTO TrailerTotoro"
+    "AllTotoro AllTotoro TrailerTotoro"
+    ;
+}
+
+
+.AllTotoro {
+    grid-area: AllTotoro;
+}
+
+.TOTOro {
+    color: rgb(203, 155, 10);
+}
+
+.TOTOROIMG {
+    grid-area: TOTOROIMG;
+}
+
+#MYNEIGHTOTO {
+    color: aliceblue;
+    text-decoration: underline;
+    font-size: 54px;
+}
+
+.MeanToto {
+    color: rgb(69, 110, 130);
+}
+
+.MeanTotoro {
+    grid-area: MeanTotoro;
+}
+
+.TrailerTotoro {
+    grid-area: TrailerTotoro;
+}
+
+.NxtPg {
+    font-size: 54px;
+    color: aliceblue;
+}

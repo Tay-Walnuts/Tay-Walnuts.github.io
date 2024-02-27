@@ -1,0 +1,39 @@
+body {
+    background-image: url("WOW Images/studio-ghibli-backgrounds-20 copy.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+.Everythng {
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    text-align: center;
+}
+
+.Miya {
+    font-size: 66px;
+    border-style: double;
+    text-decoration: underline;
+}
+
+.Who {
+    font-size: 54px;
+    text-decoration: underline;
+}
+
+.About {
+    font-size: 54px;
+    text-decoration: underline;
+}
+
+.Movies {
+    font-size: 54px;
+    text-decoration: underline;
+}
+
+.Para {
+    color: rgb(139, 166, 112);
+}
