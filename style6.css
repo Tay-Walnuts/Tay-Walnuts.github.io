@@ -1,0 +1,30 @@
+.ArtE {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: rgb(253, 225, 225);
+}
+
+body {
+    background-image: url(Images/Black_Wallpaper.jpg.webp);
+}
+
+#Impact {
+    font-size: 67px;
+    color: rgb(206, 52, 52);
+    animation: Impact 10s ease-in infinite;
+}
+
+@keyframes Impact {
+    25% {
+       color: rgb(252, 236, 244);
+    }
+    50% {
+        color: rgb(206, 52, 52);
+    }
+    75% {
+        color: rgb(252, 236, 244);
+     }
+    100% {
+        color: rgb(206, 52, 52);
+    }
+}

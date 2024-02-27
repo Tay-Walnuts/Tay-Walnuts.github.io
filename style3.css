@@ -1,0 +1,142 @@
+body{
+    background-image: url(Images/purplewallppr.jpg);
+}
+
+.Evrythng {
+    text-align: center;
+    color: rgb(194, 165, 235);
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Inspire {
+    font-size: 67px;
+    text-decoration: underline;
+}
+
+#Insp{
+    color: rgb(194, 165, 235); 
+    animation: Insp 10s ease-in infinite;
+}
+
+@keyframes Insp {
+    25% {
+       color: blue;
+    }
+    50% {
+        color: rgb(194, 165, 235);
+    }
+    75% {
+        color: blue;
+     }
+    100% {
+        color: rgb(194, 165, 235);
+    }
+}
+
+.Text {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "Kimo Kimo Lil Lil"
+    "Kimo Kimo Lil Lil"
+    "Shel Shel Cat Cat"
+    "Shel Shel Cat Cat"
+    ;
+}
+
+.InstaK {
+    font-size: 35px;
+    color: blueviolet;
+}
+
+#InK:hover {
+    color: rgb(220, 221, 245);
+}
+
+.Kimo {
+grid-area: Kimo;
+}
+
+.InstaL {
+    font-size: 35px;
+    color: blueviolet;
+}
+
+#InL:hover {
+    color: rgb(220, 221, 245);
+}
+
+.Lil {
+grid-area: Lil;
+}
+
+.InstaS {
+    font-size: 35px;
+    color: blueviolet;
+}
+
+#InS:hover {
+    color: rgb(220, 221, 245);
+}
+
+.Shel {
+grid-area: Shel;
+}
+
+.InstaC {
+    font-size: 35px;
+    color: blueviolet;
+}
+
+#InC:hover {
+    color: rgb(220, 221, 245);
+}
+
+.Cat {
+grid-area: Cat;
+}
+
+#Mention {
+    text-decoration: underline;
+    font-size: 67px;
+    color: rgb(194, 165, 235); 
+    animation: Insp 10s ease-in infinite;
+}
+
+@keyframes Mention {
+    25% {
+        color: blue;
+     }
+     50% {
+         color: rgb(194, 165, 235);
+     }
+     75% {
+         color: blue;
+      }
+     100% {
+         color: rgb(194, 165, 235);
+     }
+}
+
+
+#Mik {
+color: blueviolet;
+font-size: larger;
+}
+
+#Nai {
+color: blueviolet;
+font-size: larger;
+}
+
+#Kei {
+color: blueviolet;
+font-size: larger;
+}
+
+#More {
+color: blueviolet;
+font-size: 45px;
+}

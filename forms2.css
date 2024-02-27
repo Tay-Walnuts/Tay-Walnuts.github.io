@@ -1,0 +1,19 @@
+.SIGn {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    
+}
+
+body {
+    background-image: url(Images/flower\ wallpaper\ copy.jpeg);
+}
+
+.SIGN {
+    font-size: 67px;
+    text-decoration: underline;
+}
+
+.LOG {
+    font-size: 67px;
+    text-decoration: underline;
+}

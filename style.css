@@ -1,181 +1,133 @@
-.EVERYTHING {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: large;
-    text-align: center;
-}
-
 body {
-    background-image: url("WOW Images/studio-ghibli-backgrounds-20 copy.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-image: url(Images/flower\ wallpaper\ copy.jpeg);
 }
 
-#H1 {
-    color: aliceblue;
-    font-weight: bolder;
-    font-size: 66px;
-    border-style: double;
+.Table {
+    border-right-style: solid;
+    border-left-style: solid;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    align-items: center;
+    border-color: rgb(183, 183, 183);
+    color: black;
 }
 
-
-
-.Music {
-color: aliceblue;
-font-weight: bolder;
+#ClickMonet {
+color: black;
 }
 
-
-
-
-.PLOTS {
-    color: rgb(217, 240, 240);
+#ClickIvan {
+    color: black;
 }
 
-.MEANING {
-    color: rgb(217, 240, 240);
+#ClickRepin {
+    color: black;
 }
 
-#CLickPonyo {
-    color: rgb(50, 174, 216);
-    font-size: 25px;
+.Inspires {
+    color: black;
 }
 
-#ClickSpirited {
-    color: rgb(55, 118, 99);
-    font-size: 25px;
+.Effect {
+    color: black;
 }
 
-#ClickTOtoro {
-    color: rgb(48, 81, 90);
-    font-size: 25px;
+.News {
+    color: black;
 }
 
-#POnyO {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-    "PONYOIMG HeadingPONYO TrailerPonyo"
-    "AllPonyo AllPonyo MeanPonyo"
-    ;
+.NewsL{
+    
+border-right-style: solid;
+border-bottom-style: solid;
+border-color: rgb(183, 183, 183);
 }
 
-.AllPonyo {
-    grid-area: AllPonyo;
+.NewsLS{
+    border-right-style: solid;
+    border-color: rgb(183, 183, 183);
 }
 
-.POnyO {
-    color: rgb(234, 91, 51);
+.Art{
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color: rgb(183, 183, 183);
 }
 
-.PONYOIMG {
-    grid-area: PONYOIMG;
+.ArtMKR{
+    border-right-style: solid;
+    border-color: rgb(183, 183, 183)
 }
 
-#HeadingPONYO {
-    color: aliceblue;
-    grid-area: HeadingPONYO;
-    text-decoration: underline;
-    font-size: 54px;
+.PplInspire{
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color: rgb(183, 183, 183);
 }
 
-.MeanPONYO {
-    color: rgb(223, 176, 23);
-    grid-area: MeanPONYO;
+.Inspire{
+    border-right-style: solid;
+    border-left-style: solid;
+    border-color: rgb(183, 183, 183);
 }
 
-.TrailerPONYO {
-    grid-area: TrailerPONYO;
+.aEffect{
+    border-bottom-style: solid;
+    border-color: rgb(183, 183, 183);
 }
 
 
+.BeautyOfArt {
+    font-size: 67px;
+ }
 
+ .Evrythng {
+    text-align: center;
+    color: rgb(37, 37, 37);
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
 
-
-.SpiritAway {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "SPIRITIMG SPIRAWAY TrailerSpirit"
-    "AllSpirit AllSpirit MeanAway"
-    ;
-}
-
-.AllSpirit {
-    grid-area: AllSpirit;
-}
-
-.Away {
-    color: rgb(226, 112, 104);
-}
-
-.SPIRITIMG {
-    grid-area: SPIRITIMG;
-}
-
-#SPIRAWAY {
-    color: aliceblue;
-    text-decoration: underline;
-    font-size: 54px;
-}
-
-.MeanAway {
-    color: rgb(33, 131, 148);
-}
-
-.MeanSpirit {
-    grid-area: MeanSpirit;
-}
-
-.TrailerSpirit {
-    grid-area: TrailerSpirit;
-}
-
-
-
-.MyNeighborTotoro {
+ .Painters {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: 
-    "TOTOROIMG MYNEIGHTOTO TrailerTotoro"
-    "AllTotoro AllTotoro TrailerTotoro"
+    "Monet Monet Monet"
+"GreenDrss GreenDrss GreenDrss"
+    "Kramskoi Kramskoi Kramskoi"
+"Unkn Unkn Unkn"
+    "Repin Repin Repin"
+"IvanTrbl IvanTrbl IvanTrbl"    
     ;
-}
+ }
 
+ .Monet {
+    grid-area: Monet;
+ }
 
-.AllTotoro {
-    grid-area: AllTotoro;
-}
+ .Kramskoi{
+    grid-area: Kramskoi;
+ }
 
-.TOTOro {
-    color: rgb(203, 155, 10);
-}
+ .Repin {
+    grid-area: Repin;
+ }
 
-.TOTOROIMG {
-    grid-area: TOTOROIMG;
-}
+ .GreenDrss {
+    grid-area: GreenDrss;
+ }
 
-#MYNEIGHTOTO {
-    color: aliceblue;
-    text-decoration: underline;
-    font-size: 54px;
-}
+ .Unkn {
+    grid-area: Unkn;
+ }
 
-.MeanToto {
-    color: rgb(69, 110, 130);
-}
+ .IvanTrbl {
+    grid-area: IvanTrbl;
+ }
 
-.MeanTotoro {
-    grid-area: MeanTotoro;
-}
-
-.TrailerTotoro {
-    grid-area: TrailerTotoro;
-}
-
-.NxtPg {
-    font-size: 54px;
-    color: aliceblue;
-}
+ .NxtPg {
+    font-size: 56px;
+    align-items: center;
+    color: black;
+ }
